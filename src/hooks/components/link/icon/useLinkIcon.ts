@@ -23,6 +23,6 @@ export function useLinkIcon(props: TLinkIconProps) {
 
   return {
     IconComponent: iconComponents[props.icon],
-    size: isMobile ? 28 : 24,
+    size: isMobile ? 34 : 30,
   };
 }

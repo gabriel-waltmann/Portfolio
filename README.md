@@ -1,54 +1,68 @@
-<h1 align="center"> 
-  Olá! Me chamo Gabriel Waltmann 🖐️ 
-  <br> Sou desenvolvedor Front-End!
-</h1>
+# Olá, me chamo Gabriel Waltmann 👋
 
-<div align="center">
-  <h2> 👨🏻‍💻 Sobre mim </h2>
-  <ul align="left">
-    <li>🔭 Foco principalmente no Front End, entratando tenho conhecimentos também em backend</li>
-    <li>💼  Atualmente desenvolvo projetos em React com Next.js</li>
-    <li>😴  Como hobby, assisto animes e jogo Minecraft</li>
-  </ul>
+Desenvolvedor de software com 4 anos de experiência. Construo soluções com foco em qualidade de código, performance, confiabilidade, testabilidade e manutenibilidade.
+
+---
+
+## Foco e motivação
+
+- **Qualidade de código** — Aplicação de boas práticas, princípios SOLID e Clean Code
+- **Confiabilidade** — Construção de sistemas resilientes e testáveis
+- **Aprendizado contínuo** — Curiosidade por novos padrões de projeto, otimização, refatoração e arquitetura de software
+- **Backend heavy** — Desenvolvimento de software com foco em backend
+- **Observabilidade** — Métricas, rastreamento, logging e alertas de erros
+
+---
+
+## Tech stack
+
+<div>
+  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=.net&logoColor=white" alt="C#" />
+  <img src="https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white" alt=".NET" />
+</div>
+<div>
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure" />
 </div>
 
-<div align="center">
-  <h2> Github </h2>
+---
 
-  <a href="https://github.com/gabriel-waltmann">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=gabriel-waltmann&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gabriel-waltmann&layout=compact&langs_count=7&theme=dark"/>
+## Ferramentas
+
+<div>
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <img src="https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" alt="GitLab" />
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code" />
 </div>
 
-<div align="center">
-  <h2> 🖥️ Tecnologias </h2>
-  
-  <img src="https://img.shields.io/badge/-git-F05032?logo=git&logoColor=white&style=for-the-badge" />	
-  <img src="https://img.shields.io/badge/-html-E34F26?logo=html5&logoColor=white&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/-css-1572B6?logo=css3&logoColor=white&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/-javascript-F7DF1E?logo=javascript&logoColor=white&style=for-the-badge" />
+---
+
+## Frontend, quando necessário
+
+<div>
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Vue.js-35495E?style=flat-square&logo=vue.js&logoColor=4FC08D" alt="Vue.js" />
 </div>
 
-<div align="center">
-  <h2> 📚 Estudando </h2>
-    <img src="https://img.shields.io/badge/-nodejs-339933?logo=node.js&logoColor=white&style=for-the-badge" />
-	  <img src="https://img.shields.io/badge/-reactjs-61DAFB?logo=react&logoColor=white&style=for-the-badge" />
-     <img src="https://img.shields.io/badge/-npm-CB3837?logo=npm&logoColor=white&style=for-the-badge" />
-</div>
+---
 
-<div align="center">
-  <h2> 🛠️ Ferramentas </h2>
-	
-  <img src="https://img.shields.io/badge/-vscode-007ACC?logo=Visual Studio Code&logoColor=white&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/-notion-000000?logo=notion&logoColor=white&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/-figma-F24E1E?logo=figma&logoColor=white&style=for-the-badge" />
-</div>
+## Contribuições que já realizei
 
- <br>
-<div align="center">
-  <h2> 📩 Midias </h2>
-  <a href="https://instagram.com/waltmanngabriel" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
-  <a href = "mailto:gabrielwaltmann@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-  <a href="https://www.linkedin.com/in/gabrielwaltmann" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
- 
+- Integração com APIs de terceiros para comunicação em lote e geração de relatórios
+- Refatoração de código legado e aplicação de arquitetura limpa
+- Implementação de sistemas de monitoramento com Grafana e Prometheus
+- Implementação de uma cultura de testes de integração e TDD
+- Organização de documentações e design systems
+
+---
+
+## Vamos conversar?
+
+<div>
+  <a href="https://www.linkedin.com/in/gabrielwaltmann"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:gabrielwaltmann@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
 </div>

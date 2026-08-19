@@ -1,41 +1,20 @@
-import { useScreen } from "@/hooks/useScreen";
-import { CSSProperties, useEffect, useState } from "react";
+import { CSSProperties } from "react";
 
 export type TContainerPrimaryProps = Readonly<{
   children?: React.ReactNode;
 }>;
 
 export function useContainerPrimary(props: TContainerPrimaryProps) {
-  const { width } = useScreen();
-
-  const getMaxWidth = (): string => {
-    if (width < 768) {
-      return "100%";
-    }
-
-    if (width < 1024) {
-      return "768px";
-    }
-
-    return "1024px";
-  };
-
-  const getContainerStyle = (): CSSProperties => ({
+  const containerStyle: CSSProperties = {
     display: "flex",
     flexDirection: "column",
     flexWrap: "nowrap",
+    width: "100%",
+    maxWidth: "1200px",
     minHeight: "100vh",
-    margin: width < 768 ? "1rem" : "1rem auto 1rem auto",
-    maxWidth: getMaxWidth(),
-  });
-
-  const [containerStyle, setContainerStyle] = useState<CSSProperties>(
-    getContainerStyle()
-  );
-
-  useEffect(() => {
-    setContainerStyle(getContainerStyle());
-  }, [width]);
+    margin: "0 auto",
+    padding: "1rem",
+  };
 
   return {
     containerStyle,

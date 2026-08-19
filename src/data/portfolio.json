@@ -1,0 +1,157 @@
+{
+  "profile": {
+    "name": "Gabriel Waltmann",
+    "avatar": "/profile.jpg",
+    "greeting": "Olá, me chamo Gabriel Waltmann 👋",
+    "role": "Desenvolvedor de software",
+    "careerStartYear": 2022,
+    "summary": "Construo soluções com foco em qualidade de código, performance, confiabilidade, testabilidade e manutenibilidade."
+  },
+  "focus": {
+    "title": "Foco e motivação",
+    "items": [
+      {
+        "title": "Qualidade de código",
+        "description": "Aplicação de boas práticas, princípios SOLID e Clean Code."
+      },
+      {
+        "title": "Confiabilidade",
+        "description": "Construção de sistemas resilientes e testáveis."
+      },
+      {
+        "title": "Aprendizado contínuo",
+        "description": "Curiosidade por novos padrões de projeto, otimização, refatoração e arquitetura de software."
+      },
+      {
+        "title": "Backend heavy",
+        "description": "Desenvolvimento de software com foco em backend."
+      },
+      {
+        "title": "Observabilidade",
+        "description": "Métricas, rastreamento, logging e alertas de erros."
+      }
+    ]
+  },
+  "technologySections": [
+    {
+      "id": "stack",
+      "title": "Tech stack",
+      "items": [
+        {
+          "name": "C#",
+          "badge": "https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=.net&logoColor=white"
+        },
+        {
+          "name": ".NET",
+          "badge": "https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white"
+        },
+        {
+          "name": "PostgreSQL",
+          "badge": "https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"
+        },
+        {
+          "name": "Redis",
+          "badge": "https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"
+        },
+        {
+          "name": "Docker",
+          "badge": "https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"
+        },
+        {
+          "name": "Git",
+          "badge": "https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"
+        },
+        {
+          "name": "Azure",
+          "badge": "https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white"
+        }
+      ]
+    },
+    {
+      "id": "tools",
+      "title": "Ferramentas",
+      "items": [
+        {
+          "name": "GitHub",
+          "badge": "https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"
+        },
+        {
+          "name": "GitLab",
+          "badge": "https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white"
+        },
+        {
+          "name": "VS Code",
+          "badge": "https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"
+        }
+      ]
+    },
+    {
+      "id": "frontend",
+      "title": "Frontend, quando necessário",
+      "items": [
+        {
+          "name": "TypeScript",
+          "badge": "https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white"
+        },
+        {
+          "name": "React",
+          "badge": "https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"
+        },
+        {
+          "name": "Vue.js",
+          "badge": "https://img.shields.io/badge/Vue.js-35495E?style=flat-square&logo=vue.js&logoColor=4FC08D"
+        }
+      ]
+    }
+  ],
+  "contributions": {
+    "title": "Contribuições que já realizei",
+    "items": [
+      "Integração com APIs de terceiros para comunicação em lote e geração de relatórios.",
+      "Refatoração de código legado e aplicação de arquitetura limpa.",
+      "Implementação de sistemas de monitoramento com Grafana e Prometheus.",
+      "Implementação de uma cultura de testes de integração e TDD.",
+      "Organização de documentações e design systems."
+    ]
+  },
+  "socialLinks": [
+    {
+      "id": "email",
+      "label": "Gmail",
+      "href": "mailto:gabrielwaltmann@gmail.com",
+      "icon": "email",
+      "showInHeader": true
+    },
+    {
+      "id": "linkedin",
+      "label": "LinkedIn",
+      "href": "https://www.linkedin.com/in/gabrielwaltmann",
+      "icon": "linkedin",
+      "showInHeader": true
+    },
+    {
+      "id": "github",
+      "label": "GitHub",
+      "href": "https://github.com/gabriel-waltmann",
+      "icon": "github",
+      "showInHeader": true
+    }
+  ],
+  "metadata": {
+    "language": "pt-BR",
+    "title": "Gabriel Waltmann | Desenvolvedor de Software",
+    "description": "Desenvolvedor de software com foco em backend, qualidade de código, confiabilidade, testes e observabilidade.",
+    "keywords": [
+      "C#",
+      ".NET",
+      "PostgreSQL",
+      "Redis",
+      "Docker",
+      "Azure",
+      "Backend",
+      "Observabilidade",
+      "Gabriel Waltmann",
+      "Portfólio"
+    ]
+  }
+}

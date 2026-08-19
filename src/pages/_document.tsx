@@ -1,11 +1,10 @@
+import portfolio from "@/data/portfolio.json";
 import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
   return (
-    <Html lang="pt_BR">
+    <Html lang={portfolio.metadata.language}>
       <Head>
-        <title>Gabriel Waltmann</title>
-        <meta name="description" content="Gabriel Waltmann Portifolio" />
         <link rel="icon" href="icon.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -15,7 +14,7 @@ export default function Document() {
         />
         <meta
           name="keywords"
-          content="Typescript, Fullstack, JavaScript, Front-End, Gabriel Waltmann, Portfólio, Portfólio Gabriel Waltmann"
+          content={portfolio.metadata.keywords.join(", ")}
         ></meta>
       </Head>
 
