@@ -10,14 +10,14 @@ export function LinkIcon(props: TLinkIconProps): JSX.Element {
   if (props.href) {
     return (
       <LinkPrimary href={props.href}>
-        <IconComponent color={props.color ?? "#121212"} size={size} />
+        <IconComponent color={props.color ?? "currentColor"} size={size} />
       </LinkPrimary>
     );
   }
 
   return (
     <button onClick={props.onClick}>
-      <IconComponent color={props.color ?? "#121212"} size={size} />
+      <IconComponent color={props.color ?? "currentColor"} size={size} />
     </button>
   );
 }
