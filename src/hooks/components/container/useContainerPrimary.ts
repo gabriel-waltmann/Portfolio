@@ -40,4 +40,4 @@ export function useContainerPrimary(props: TContainerPrimaryProps) {
   return {
     containerStyle,
   };
-};
+}

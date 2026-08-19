@@ -16,11 +16,11 @@ export function useLinkPrimary(props: TLinkPrimaryProps) {
   const [target, setTarget] = useState<LinkTarget>(LinkTarget._self);
 
   useEffect(() => {
-      setTarget(props.openInNewTab ? LinkTarget._blank : LinkTarget._self);
+    setTarget(props.openInNewTab ? LinkTarget._blank : LinkTarget._self);
   }, [, props.openInNewTab]);
 
   return {
     target,
-    linkStyle: props.style
+    linkStyle: props.style,
   };
 }

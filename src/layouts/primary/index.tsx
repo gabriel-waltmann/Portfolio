@@ -1,16 +1,19 @@
 import ContainerPrimary from "@/components/container/primary";
 import HeaderPrimary from "@/components/header/primary";
-import PrimaryTabs from "@/components/tab/primary";
-import { TLayoutPrimaryProps, useLayoutPrimary } from "@/hooks/layouts/primary/useLayoutPrimary";
+import { CSSProperties, ReactNode } from "react";
 
-export default function LayoutPrimary(props: TLayoutPrimaryProps) {
-  const { tabs, tab, toggleTab, mainStyles } = useLayoutPrimary(props);
+type LayoutPrimaryProps = Readonly<{ children: ReactNode }>;
 
+const mainStyles: CSSProperties = {
+  flex: 1,
+  marginTop: "1rem",
+  paddingBottom: "1rem",
+};
+
+export default function LayoutPrimary(props: LayoutPrimaryProps) {
   return (
     <ContainerPrimary>
       <HeaderPrimary />
-
-      <PrimaryTabs tab={tab} tabs={tabs} onChange={toggleTab} />
 
       <main style={mainStyles}>{props.children}</main>
     </ContainerPrimary>

@@ -1,5 +1,8 @@
 import LinkPrimary from "@/components/link/primary";
-import { TLinkIconProps, useLinkIcon } from "@/hooks/components/link/icon/useLinkIcon";
+import {
+  TLinkIconProps,
+  useLinkIcon,
+} from "@/hooks/components/link/icon/useLinkIcon";
 
 export function LinkIcon(props: TLinkIconProps): JSX.Element {
   const { IconComponent, size } = useLinkIcon(props);
@@ -14,7 +17,7 @@ export function LinkIcon(props: TLinkIconProps): JSX.Element {
 
   return (
     <button onClick={props.onClick}>
-        <IconComponent color={props.color ?? "#121212"} size={size} />
+      <IconComponent color={props.color ?? "#121212"} size={size} />
     </button>
-  )
+  );
 }

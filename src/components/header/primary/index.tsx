@@ -1,7 +1,10 @@
 import TypographyTitle from "@/components/typography/title";
 import { LinkIcon } from "@/components/link/icon";
 import AvatarPrimary from "@/components/avatar/primary";
-import { THeaderPrimaryProps, useHeaderPrimary } from "@/hooks/components/header/primary/useHeaderPrimary";
+import {
+  THeaderPrimaryProps,
+  useHeaderPrimary,
+} from "@/hooks/components/header/primary/useHeaderPrimary";
 
 export default function Header(props: THeaderPrimaryProps): JSX.Element {
   const { headerStyle, ulStyles, links } = useHeaderPrimary(props);

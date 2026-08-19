@@ -5,4 +5,4 @@ export interface LinkIconEntity {
   onClick?: () => void;
   icon: LinkIconEnum;
   color?: string;
-};
+}

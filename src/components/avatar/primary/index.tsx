@@ -1,4 +1,7 @@
-import { TAvatarProps, useAvatarPrimary } from "@/hooks/components/avatar/primary/useAvatarPrimary";
+import {
+  TAvatarProps,
+  useAvatarPrimary,
+} from "@/hooks/components/avatar/primary/useAvatarPrimary";
 
 export default function AvatarPrimary(props: TAvatarProps): JSX.Element {
   const { figureStyle } = useAvatarPrimary(props);

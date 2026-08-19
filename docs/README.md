@@ -2,7 +2,7 @@
 
 ## 💻 Sobre o projeto
 
-Este é um portfólio pessoal de Gabriel Waltmannn. Nele, é possivel encontrar informações de contato, projetos já realizados entre outras informações.
+Este é o portfólio pessoal de Gabriel Waltmann. Nele, é possível encontrar uma apresentação profissional e informações de contato.
 
 <br><hr>
 
@@ -10,17 +10,10 @@ Este é um portfólio pessoal de Gabriel Waltmannn. Nele, é possivel encontrar 
 
 1. Clone o seguinte repositório (Necessita ter acesso a conta do Github): [https://github.com/gabriel-waltmann/Portfolio.git]
 
-2. Instale as dependências rodando o seguinte código no terminal: `npm install`
-3. Após instalar as dependências, execute o seguinte código no terminal para rodar o projeto: `npm run dev`
+2. Instale as dependências rodando o seguinte código no terminal: `pnpm install`
+3. Após instalar as dependências, execute o seguinte código no terminal para rodar o projeto: `pnpm dev`
 
 4. O projeto ficará disponivel na porta [https://localhost:3000]
-
-<br><hr>
-
-## 📸 Demostração
-
-<img src="./public/README/demoDesktop.gif" alt="demostração desktop" height="425" align="center">
-<img align="center" src="./public/README/demoMobile.gif" alt="demostração mobile" height="425">
 
 <br><hr>
 
@@ -31,7 +24,6 @@ Este é um portfólio pessoal de Gabriel Waltmannn. Nele, é possivel encontrar 
 ✔️ SASS/CSS <br>
 ✔️ Next.js<br>
 ✔️ AWS<br>
-✔️ Material UI<br>
 ✔️ phosphoricons<br>
 ✔️ Typescript<br>
 
