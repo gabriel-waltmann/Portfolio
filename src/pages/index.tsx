@@ -23,7 +23,7 @@ function BadgeList({ badges }: Readonly<{ badges: ReadonlyArray<Badge> }>) {
 
 export default function PageIndex() {
   const { totalWorkTime } = usePageIndex();
-  const { profile, focus, contributions } = portfolio;
+  const { profile, focus, experience, contributions } = portfolio;
 
   return (
     <article className="portfolio-page">
@@ -37,6 +37,52 @@ export default function PageIndex() {
             {profile.role} com {totalWorkTime} anos de experiência.{" "}
             {profile.summary}
           </p>
+        </div>
+      </section>
+
+
+      <section className="portfolio-section" aria-labelledby="experience-title">
+        <h2 id="experience-title">{experience.title}</h2>
+        <div className="experience-list">
+          {experience.items.map((item) => (
+            <article
+              className="experience-card"
+              key={`${item.company}-${item.startDate}`}
+            >
+              <div className="experience-marker" aria-hidden="true" />
+
+              <div className="experience-content">
+                <header className="experience-header">
+                  <div>
+                    <h3>{item.role}</h3>
+                    <p className="experience-company">
+                      {item.company} · {item.employmentType}
+                    </p>
+                  </div>
+
+                  <p className="experience-period">
+                    <time dateTime={item.startDate}>{item.startLabel}</time>
+                    <span aria-hidden="true"> — </span>
+                    {item.endDate ? (
+                      <time dateTime={item.endDate}>{item.endLabel}</time>
+                    ) : (
+                      <span>{item.endLabel}</span>
+                    )}
+                  </p>
+                </header>
+
+                <p className="experience-location">
+                  {item.location} · {item.workplaceType}
+                </p>
+
+                <ul className="experience-responsibilities">
+                  {item.responsibilities.map((responsibility) => (
+                    <li key={responsibility}>{responsibility}</li>
+                  ))}
+                </ul>
+              </div>
+            </article>
+          ))}
         </div>
       </section>
 

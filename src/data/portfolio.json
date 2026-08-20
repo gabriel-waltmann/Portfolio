@@ -32,6 +32,68 @@
       }
     ]
   },
+  "experience": {
+    "title": "Experiência",
+    "items": [
+      {
+        "role": "Desenvolvedor de software",
+        "company": "Seth",
+        "employmentType": "Tempo integral",
+        "startDate": "2025-03",
+        "startLabel": "mar de 2025",
+        "endDate": "",
+        "endLabel": "o momento",
+        "location": "Joinville, Santa Catarina, Brasil",
+        "workplaceType": "No local",
+        "responsibilities": [
+          "Desenvolvimento de backend com C# e .NET.",
+          "Integração com serviços da AWS, incluindo Cognito, SES, SNS e DynamoDB.",
+          "Auxílio na integração de novos desenvolvedores ao time.",
+          "Desenvolvimento de frontend com Next.js e TypeScript.",
+          "Criação de fluxo de testes unitários e de integração com xUnit.",
+          "Modelagem e implantação de infraestrutura em ambiente cloud Azure.",
+          "Desenvolvimento de aplicativo mobile com React Native.",
+          "Atuação em equipe com metodologias Scrum e Kanban."
+        ]
+      },
+      {
+        "role": "Desenvolvedor de software",
+        "company": "Reune Software",
+        "employmentType": "Tempo integral",
+        "startDate": "2023-05",
+        "startLabel": "mai de 2023",
+        "endDate": "2024-12",
+        "endLabel": "dez de 2024",
+        "location": "Joinville, Santa Catarina, Brasil",
+        "workplaceType": "Remoto",
+        "responsibilities": [
+          "Desenvolvimento de frontend com Vue 3 e Quasar Framework.",
+          "Migração de código JavaScript legado para TypeScript.",
+          "Criação de fluxo de testes E2E com Cypress.",
+          "Atuação em ambiente cloud Azure.",
+          "Atuação em equipe com metodologias Scrum e Kanban."
+        ]
+      },
+      {
+        "role": "Desenvolvedor de software",
+        "company": "Freelance",
+        "employmentType": "Freelance",
+        "startDate": "2023-10",
+        "startLabel": "out de 2023",
+        "endDate": "2024-06",
+        "endLabel": "jun de 2024",
+        "location": "Campo Alegre, Santa Catarina, Brasil",
+        "workplaceType": "Remoto",
+        "responsibilities": [
+          "Modelagem e implantação de infraestrutura em ambiente cloud Azure.",
+          "Desenvolvimento de aplicativo mobile com React Native.",
+          "Desenvolvimento de API RESTful com Node.js e TypeScript.",
+          "Modelagem e implementação de bancos de dados PostgreSQL.",
+          "Otimização de queries complexas para geração de relatórios."
+        ]
+      }
+    ]
+  },
   "technologySections": [
     {
       "id": "stack",

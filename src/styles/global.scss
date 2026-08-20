@@ -56,6 +56,7 @@ ul {
 body {
   background-color: var(--color-page-background) !important;
   color: var(--color-text) !important;
+  font-family: "Jost", sans-serif;
 }
 
 .next-error-h1 {
@@ -250,6 +251,102 @@ a {
   }
 }
 
+.experience-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.experience-card {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1rem minmax(0, 1fr);
+  gap: 1rem;
+
+  &:not(:last-child) {
+    padding-bottom: 1.5rem;
+  }
+
+  &:not(:last-child)::before {
+    position: absolute;
+    top: 1rem;
+    bottom: 0;
+    left: 0.4375rem;
+    width: 2px;
+    background: var(--color-border-strong);
+    content: "";
+  }
+}
+
+.experience-marker {
+  position: relative;
+  z-index: 1;
+  width: 1rem;
+  height: 1rem;
+  margin-top: 1.5rem;
+  border: 3px solid var(--color-accent);
+  border-radius: 50%;
+  background: var(--color-page-background);
+}
+
+.experience-content {
+  min-width: 0;
+  padding: 1.25rem;
+  border: 1px solid var(--color-border);
+  border-radius: 1rem;
+  background: var(--color-surface);
+}
+
+.experience-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+
+  h3 {
+    font-size: 1.2rem;
+  }
+}
+
+.experience-company {
+  margin-top: 0.2rem;
+  color: var(--color-text-secondary);
+  font-weight: 500;
+}
+
+.experience-period {
+  flex: 0 0 auto;
+  color: var(--color-accent);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.experience-location {
+  margin-top: 0.5rem;
+  color: var(--color-text-muted);
+  font-size: 0.95rem;
+}
+
+.experience-responsibilities {
+  display: grid;
+  gap: 0.5rem;
+  margin-top: 1rem;
+
+  li {
+    position: relative;
+    padding-left: 1.1rem;
+    color: var(--color-text-muted);
+    line-height: 1.5;
+
+    &::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      color: var(--color-accent);
+      content: "•";
+    }
+  }
+}
+
 .badge-list {
   display: flex;
   flex-wrap: wrap;
@@ -312,6 +409,35 @@ a {
     grid-template-columns: 1fr;
   }
 
+  .experience-card {
+    grid-template-columns: 0.75rem minmax(0, 1fr);
+    gap: 0.75rem;
+
+    &:not(:last-child)::before {
+      left: 0.3125rem;
+    }
+  }
+
+  .experience-marker {
+    width: 0.75rem;
+    height: 0.75rem;
+    margin-top: 1.4rem;
+    border-width: 2px;
+  }
+
+  .experience-content {
+    padding: 1rem;
+  }
+
+  .experience-header {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .experience-period {
+    white-space: normal;
+  }
+
   .badge-list img {
     height: 32px;
   }
@@ -323,6 +449,7 @@ button,
 .portfolio-profile,
 .portfolio-intro,
 .focus-card,
+.experience-content,
 .contribution-list li {
   transition: background-color 180ms ease, color 180ms ease,
     border-color 180ms ease;
@@ -335,6 +462,7 @@ button,
   .portfolio-profile,
   .portfolio-intro,
   .focus-card,
+  .experience-content,
   .contribution-list li {
     transition: none;
   }
