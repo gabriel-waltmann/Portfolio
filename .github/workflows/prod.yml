@@ -11,8 +11,8 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  DOCKER_IMAGE: gabrielwaltmann/waltmann_client:latest
-  COMPOSE_SERVICE: waltmann-frontend
+  DOCKER_IMAGE: gabrielwaltmann/portfolio
+  COMPOSE_SERVICE: portfolio
 
 jobs:
   build:
